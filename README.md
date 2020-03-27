@@ -30,13 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+map creates an array, foreach doesnt
+
 2. What is the difference between a function and a method?
+
+a function is an object, a method is a function that belongs to an object
 
 3. What is closure?
 
+A closure is a combination of a function bundled together with references to its surroudning state.
+
 4. Describe the four rules of the 'this' keyword.
 
+global- when using 'this' in a function that is in global scope 'this' is the window/console
+
+implicit- when an object is inside a function using 'this' and the function is called with a '.' the object before the '.' when called is the this value
+
+explicit- when a function is called using Javascipt's '.call' or '.apply' methods the value of 'this' is explicitly defined
+
+new- when 'this' is being used in a constructor function to create a new object 'this' is the specific instance of the object when it is called/created using the new keyword
+
 5. Why do we need super() in an extended class?
+
+it does what object.create and parent.call did
 
 ## Project Set up
 
